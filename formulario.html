@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário web1</title>
+</head>
+<body>
+<fieldset>
+    <legend> <b> Formulário de Inscrição </b> </legend>
+<form>
+    <div class="row">
+        <label for=""> <b> Nome </b> </label>
+        <input type="text"
+        placeholder="Insira seu nome">
+    </div>
+
+    <p>
+    <div class="row">
+        <label for=""> <b> Sobrenome </b> </label>
+        <input type="text"
+        placeholder="Insira seu sobrenome">
+    </div>
+    </p>
+
+    <P> 
+    <div class="row">
+        <label for=""> <b> Idade </b> </label>
+        <input type="number" id="minhaidade" max="120" min="18"> 
+    </div>
+    </P>
+
+<p> 
+    <div class="row">
+        <label for=""> <b> E-mail </b></label>
+        <input type="email"
+        placeholder="example@email.com">
+    </div>
+</p>
+
+<p> 
+    <div class="row"> 
+        <label for=""> <b> Gênero </b></label>
+        <input type="radio" value="Masculino" id="Masculino" name="sexo">
+        <label for=""> Masculino </label>
+        <input type="radio" value="Feminino" id="Feminino" name="sexo">
+        <label for=""> Feminino </label>
+        <input type="radio" value="Outro" id="Outro" name="sexo">
+        <label for=""> Outro </label>
+        <input type="text">
+    </div>
+</p>
+<p> 
+    <div class="row">
+        <label for=""><b> Foto </b></label>
+        <input type="file">
+    </div>
+</p>
+
+<P> 
+    <div class="row">
+        <label for=""> <b> País </b></label>
+        <select style="width: 150;font-size: 15px;" name =  País> 
+            <option value="África do Sul">África do Sul</option>
+            <option value="Albânia">Albânia</option>
+            <option value="Alemanha">Alemanha</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Bahamas">Bahamas</option><option value="Bahamas">Bahamas</option>
+            <option value="Bahamas">Brasil</option>
+            <option value="Camarões">Camarões</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Colômbia">Colômbia</option>
+            <option value="Coréia do Sul">Coréia do Sul</option>
+            <option value="EUA">EUA</option>
+            <option value="Egito">Egito</option>
+            <option value="França">França</option>
+            <option value="Grécia">Grécia</option>
+            <option value="Índia">Índia</option>
+            <option value="Indonésia">Indonésia</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Itália">Itália</option>
+            <option value="Japão">Japão</option>
+            <option value="Madagascar">Madagascar</option>
+            <option value="Portugal">Portugal</option>
+        </select>
+    </div>
+</P> 
+
+    <p> 
+    <div class="row">
+        <label for=""> <b> Quais linguagens você prefere? </b> </label>
+        <br/>
+<select size="3" name="linguagens" id="linguagens" multiple>
+    <option value="Java"> Java </option>
+    <option value="Python"> Python </option>
+    <option value="C"> C </option>
+    <option value="C#"> C# </option>
+    <option value="PHP"> PHP </option>
+    <option value="JavaScript"> JavaScript </option>
+    <option value="Swift"> Swift </option>
+    <option value="CSS"> CSS </option>
+    <option value="C++"> C++ </option>
+</select>
+        <br/>
+        <i> * Pressione CTRL para selecionar mais de uma. </i>
+    </div>
+     </p>
+     <P> 
+     <div class="row">
+        <label for=""> <b> Área(s) de atuação </b> </label>
+
+        <br/>
+
+        <input type="checkbox" id="Administração" name="Admnistração" value="área">
+        <label for=""> Administração </label>
+        <br/>
+        <input type="checkbox" id="Marketing" name="Marketing" value="área1">
+        <label for=""> Marketing </label>
+        <br/>
+        <input type="checkbox" id="Tecnologia da Informação" name="Tecnologia da Informação" value="área2">
+        <label for=""> Tecnologia da Informação </label>
+        <br/>
+        <input type="checkbox" id="Psicologia" name="Psicologia" value="área3">
+        <label for=""> Psicologia </label>
+        <br/>
+    </div>
+
+    </P>
+
+    <div> 
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Limpar </button>
+    </div>
+</form>
+</fieldset>
+</body>
+</html></div>
